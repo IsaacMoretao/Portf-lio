@@ -2,7 +2,8 @@ body {
   margin: 0%;
   padding: 0%;
   background-color: rgb(0, 0, 0);
-  background: url("IMG/pexels-adrien-olichon-3646206\ \(1\).jpg")   no-repeat center center;
+  background: url('IMG/pexels-adrien-olichon-3646206\ \(1\).jpg') no-repeat
+    center center;
   background-size: cover;
   height: 100%;
 }
@@ -16,19 +17,16 @@ header {
   align-items: baseline;
 }
 
-
 .Título-header {
   margin-top: auto;
   margin-bottom: auto;
   font-size: 30px;
   transition: 1s;
   cursor: pointer;
-
 }
 
 .Título-header:hover {
   color: aliceblue;
-
 }
 
 .Hamburguer {
@@ -39,7 +37,6 @@ header {
   border-radius: 5px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .Hamburguer-1 {
@@ -50,7 +47,6 @@ header {
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
-
 }
 
 .Botão-Hamburguer {
@@ -62,13 +58,11 @@ header {
   margin-left: 40vh;
   cursor: pointer;
   display: none;
-
 }
 
 .Botão-Hamburguer:hover {
   background-color: rgba(240, 240, 240, 0.541);
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
-
 }
 
 .links {
@@ -84,12 +78,10 @@ a {
   font-size: 20px;
   height: 45px;
   transition: 0.5s;
-
 }
 
 a:hover {
   color: rgb(189, 189, 189);
-
 }
 
 @media (max-width: 999px) {
@@ -102,7 +94,6 @@ a:hover {
   }
 
   .links {
-
     position: absolute;
     width: 50vh;
     top: 4vh;
@@ -112,7 +103,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.52);
     flex-direction: column;
     text-align: center;
-    transform: translateX(100%)
+    transform: translateX(100%);
   }
 
   .links a {
@@ -125,8 +116,6 @@ a:hover {
     margin-top: auto;
     margin-bottom: auto;
     margin-top: 10px;
-
-    
   }
 
   a:hover {
@@ -137,8 +126,8 @@ a:hover {
     display: block;
   }
 
-  .links:hover ~ .Botão-Hamburguer {
-    transform: translateX(0%)
+  .links:hover .Botão-Hamburguer {
+    transform: translateX(100%);
   }
 }
 
@@ -169,20 +158,20 @@ a:hover {
   height: 50vh;
 }
 
-.paragrafo-secion-1{
+.paragrafo-secion-1 {
   font-family: 'Kanit', sans-serif;
   font-size: 20px;
   margin-left: 3vw;
   margin-right: 3vw;
   color: rgb(209, 209, 209);
+  line-height: 1.6;
 }
 
-.Html{
-  max-height: 250px;
-  min-height: 150px;
-  
+.Html {
+  height: 250px;
+  width: 250px; 
 }
-.secion-2{
+.secion-2 {
   display: flex;
   background-color: rgba(255, 99, 71, 0);
   margin-top: 20%;
@@ -191,32 +180,33 @@ a:hover {
   border-bottom: 1px solid rgb(255, 255, 255);
   height: 35vh;
 }
-.Css{
+.Css {
   max-height: 250px;
   min-height: 150px;
   margin-bottom: 5%;
   margin-left: 30px;
 }
-.Js{
+.Js {
   max-height: 250px;
   min-height: 150px;
   margin-bottom: 5%;
   margin-left: 30px;
 }
 
-body{
- 
-  background: url("IMG/pexels-adrien-olichon-3646206\ \(1\).jpg")   no-repeat center center;
+body {
+  background: url('IMG/pexels-adrien-olichon-3646206\ \(1\).jpg') no-repeat
+    center center;
   background-size: cover;
   height: 100%;
 }
- .PC{
-   max-height: 250px;
-   min-height: 150px;
-   margin-left: 25px;
-   margin-bottom: 25px;
- }
- .secion-3{
+.PC {
+  max-height: 250px;
+  min-height: 150px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.secion-3 {
+
   display: flex;
   background-color: rgba(255, 99, 71, 0);
   margin-top: 20%;
@@ -225,28 +215,26 @@ body{
   border-bottom: 1px solid rgb(255, 255, 255);
   height: 35vh;
   margin-bottom: 30vh;
- }
+}
 @media (max-width: 999px) {
-
-  .secion-1{
+  .secion-1 {
     height: 40vw;
   }
-  secion{
+  secion {
     width: 70%;
   }
-  .Minha-Imagem{
+  .Minha-Imagem {
     height: 150px;
   }
-  .circulo{
+  .circulo {
     height: 200px;
     margin-left: -20px;
     margin-top: -20px;
   }
-  .secion-2{
+  .secion-2 {
     height: 30vw;
   }
-  .secion-3{
+  .secion-3 {
     height: 40vw;
   }
 }
-
