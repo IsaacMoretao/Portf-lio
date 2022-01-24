@@ -1,0 +1,252 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(0, 0, 0);
+  background: url("IMG/pexels-adrien-olichon-3646206\ \(1\).jpg")   no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  background-color: rgba(109, 109, 109, 0.342);
+  justify-content: space-around;
+  height: 6vh;
+  border-bottom: 1px solid white;
+  align-items: baseline;
+}
+
+
+.Título-header {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 30px;
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.Título-header:hover {
+  color: aliceblue;
+
+}
+
+.Hamburguer {
+  background-color: black;
+  height: 4px;
+  width: 35px;
+  margin-top: 4px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.Hamburguer-1 {
+  background-color: black;
+  height: 4px;
+  width: 35px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+
+}
+
+.Butão-Hamburguer {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 6vh;
+  width: 8vh;
+  transition: 1s;
+  margin-left: 40vh;
+  cursor: pointer;
+  display: none;
+
+}
+
+.Butão-Hamburguer:hover {
+  background-color: rgba(240, 240, 240, 0.541);
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 1s;
+  margin-left: 40px;
+  font-size: 20px;
+  height: 45px;
+  transition: 0.5s;
+
+}
+
+a:hover {
+  color: rgb(189, 189, 189);
+
+}
+
+@media (max-width: 999px) {
+  Body {
+    overflow-x: hidden;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  .links {
+
+    position: absolute;
+    width: 50vh;
+    top: 4vh;
+    right: 0;
+    width: 30vw;
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.52);
+    flex-direction: column;
+    text-align: center;
+    transform: translateX(100%)
+  }
+
+  .links a {
+    opacity: 0;
+  }
+
+  a {
+    margin: 0px;
+    height: 6vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 10px;
+
+    
+  }
+
+  a:hover {
+    background: rgba(240, 248, 255, 0.315);
+  }
+
+  .Butão-Hamburguer {
+    display: block;
+  }
+
+  .links:hover ~ .Butão-Hamburguer {
+    transform: translateX(0%)
+  }
+}
+
+/*---------^heder^-----------*/
+.Minha-Imagem {
+  max-height: 250px;
+  min-height: 50px;
+  height: 300px;
+  border-radius: 200px;
+}
+
+.circulo {
+  position: absolute;
+  height: 400px;
+  margin-top: -50px;
+  margin-left: -50px;
+  max-height: 350px;
+  min-height: 50px;
+}
+
+.secion-1 {
+  display: flex;
+  background-color: rgba(255, 99, 71, 0);
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 50vh;
+}
+
+.paragrafo-secion-1{
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: rgb(209, 209, 209);
+}
+
+.Html{
+  max-height: 250px;
+  min-height: 150px;
+  
+}
+.secion-2{
+  display: flex;
+  background-color: rgba(255, 99, 71, 0);
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 35vh;
+}
+.Css{
+  max-height: 250px;
+  min-height: 150px;
+  margin-bottom: 5%;
+  margin-left: 30px;
+}
+.Js{
+  max-height: 250px;
+  min-height: 150px;
+  margin-bottom: 5%;
+  margin-left: 30px;
+}
+
+body{
+ 
+  background: url("IMG/pexels-adrien-olichon-3646206\ \(1\).jpg")   no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+ .PC{
+   max-height: 250px;
+   min-height: 150px;
+   margin-left: 25px;
+   margin-bottom: 25px;
+ }
+ .secion-3{
+  display: flex;
+  background-color: rgba(255, 99, 71, 0);
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 35vh;
+  margin-bottom: 30vh;
+ }
+@media (max-width: 999px) {
+
+  .secion-1{
+    height: 40vw;
+  }
+  secion{
+    width: 70%;
+  }
+  .Minha-Imagem{
+    height: 150px;
+  }
+  .circulo{
+    height: 200px;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .secion-2{
+    height: 30vw;
+  }
+  .secion-3{
+    height: 40vw;
+  }
+}
+
