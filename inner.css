@@ -137,7 +137,7 @@ a:hover {
     display: block;
   }
 
-  .links:hover ~ .Butão-Hamburguer {
+  .links:hover ~ .Botão-Hamburguer {
     transform: translateX(0%)
   }
 }
